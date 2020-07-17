@@ -1,0 +1,17 @@
+
+#mouse {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 100px;
+    animation-name: run;
+    animation-duration: 5s;
+}
+
+@keyframes run {
+    0% {left: 10px}
+    25% {left: 110px}
+    50%{left: 210px}
+    75%{left: 310px}
+    100%{left: 410px}
+}
